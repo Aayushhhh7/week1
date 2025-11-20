@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aayush Mishra - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">Aayush</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#gallery">Super cars Gallery</a></li>
+          <li><a href="#multimedia">Multimedia</a></li>
+          <li><a href="#layout-note">Layout Note</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="about">
+        <h1>About Me</h1>
+        <p>
+          I am <strong>Aayush Mishra</strong>, from
+          <strong>Biratnagar-1</strong>. Born on 16 Feb 2002, I completed my
+          schooling at <strong>BKVM School and College</strong>. I am
+          currently pursuing a Bachelor's degree in Information Technology (BIT)
+          at <strong>Biratnagar International College (BIC)</strong>. With a
+          profound curiosity for technology and a commitment to excellence, I
+          strive to approach each endeavor with integrity, diligence, and a
+          vision for innovation. Throughout my academic journey, I have
+          cultivated a disciplined work ethic, complemented by a thirst for
+          knowledge and a passion for creative problem-solving. It is my belief
+          that true growth arises from embracing challenges, seeking wisdom, and
+          uplifting others along the way. As I continue on this path, I remain
+          dedicated to expanding my skills and contributing meaningfully to my
+          field and my community.
+        </p>
+      </section>
+
+      <section id="education">
+        <h1>Education</h1>
+        <ul class="education-list">
+          <li>
+            <strong>Bachelor of Information Technology (BIT)</strong
+            ><br />Biratnagar International College - 2025–present
+          </li>
+          <li>
+            <strong>Higher Secondary Education (10+2)</strong><br />BKVM
+            School and College - Completed 2024
+          </li>
+          <li>
+            <strong>School Leaving Certificate (SLC)</strong><br />BKVM
+            School and College - Completed 2022
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills-container">
+          <div class="skill-item">
+            <span>HTML</span>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percent="90">90%</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>CSS</span>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percent="85">85%</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percent="75">75%</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Python</span>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percent="70">70%</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Git & GitHub</span>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percent="80">80%</div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>Responsive Design</span>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percent="85">85%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="projects-grid">
+          <div class="project-card" data-url="https://github.com/">
+            <h3>Personal Portfolio (Week 01)</h3>
+            <p>First version of this portfolio – built only with HTML & CSS.</p>
+          </div>
+          <div class="project-card" data-url="https://www.google.com">
+            <h3>JavaScript Calculator</h3>
+            <p>Simple calculator using vanilla JS (placeholder link).</p>
+          </div>
+          <div class="project-card" data-url="https://www.github.com">
+            <h3>To-Do List App</h3>
+            <p>Interactive to-do list with localStorage (placeholder link).</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h1>Super cars Gallery</h1>
+        <div class="slider">
+          <div class="slides">
+            <img
+              src="https://wallpaper.forfun.com/fetch/74/7454d1bceebc32e19c5e98589b84f27c.jpeg"
+              alt="BMW"
+            />
+            <img
+              src="https://imagebee.org/vehicles/toyota-supra/toyota-supra-3-1571x884.jpg"
+              alt="toyota-supra mk4"
+            />
+            <img
+              src="https://wallpaper.forfun.com/fetch/99/99160d614e8699ae0be9815880ed2121.jpeg"
+              alt="mcleren"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/07/Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg"
+              alt="lamborgini"
+            />
+          </div>
+          <button class="prev">❮</button>
+          <button class="next">❯</button>
+        </div>
+      </section>
+
+      <section id="multimedia">
+        <h1>Multimedia (HTML5)</h1>
+        <div class="media-grid">
+          <video controls>
+            <source
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <audio controls>
+            <source
+              src="https://www.w3schools.com/html/horse.mp3"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+          <canvas id="myCanvas" width="300" height="150"></canvas>
+        </div>
+      </section>
+
+      <section id="layout-note">
+        <h1>Flexbox vs Grid (Step 8)</h1>
+        <p>
+          <strong>Flexbox</strong> is a <strong>one-dimensional</strong> layout
+          (row or column).<br />
+          <strong>Grid</strong> is a <strong>two-dimensional</strong> layout
+          (rows and columns simultaneously).<br /><br />
+          In this portfolio I used <strong>CSS Grid</strong> for the skills
+          section, projects section, and multimedia section, while
+          <strong>Flexbox</strong> is used for the navigation bar and slider.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+          <label for="name">Name *</label>
+          <input type="text" id="name" required />
+          <label for="email">Email *</label>
+          <input type="email" id="email" required />
+          <label for="message">Message *</label>
+          <textarea id="message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div id="form-message" role="alert"></div>
+        <div class="contact-info">
+          <p>
+            <strong>Email:</strong> np02cs4a240086@bicnepal.edu.np<br />
+            <strong>Phone:</strong> +977 9810552011<br />
+            <strong>Location:</strong> Biratnagar-6, Nepal
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <button id="back-to-top" title="Back to top">↑</button>
+
+    <footer>
+      <p>© 2025 Aayush Mohamad. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
